@@ -141,6 +141,12 @@ const ProductDetails = ({
         <h3 className="font-semibold">Sucos</h3>
         <ProductList products={complementaryProducts} />
       </div>
+
+      <div className="mt-6 px-5">
+        <Button className="font-semibold w-full">
+          Adicionar ao carrinho
+        </Button>
+      </div>
     </div>
   );
 };
